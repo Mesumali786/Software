@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         mail($to, $subject, $message, $headers);
 
         // Redirect to the dashboard or another page upon successful login.
-        header("Location: ../Software Al-abbas -/Dashboar.html");
+        header("Location: https://mesumali786.github.io/Software/Dashboar.html");
         exit();
     } else {
         // Display an error message for the user.
